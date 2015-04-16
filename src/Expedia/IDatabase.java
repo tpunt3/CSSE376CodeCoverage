@@ -11,5 +11,7 @@ public abstract class IDatabase {
 	public abstract String getCarLocation(int carNumber);
 
 	public abstract String getRoomOccupant(int roomNumber);
+	
+	public abstract List<String> getPassengers();
 
 }
