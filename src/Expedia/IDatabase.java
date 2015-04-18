@@ -13,5 +13,7 @@ public abstract class IDatabase {
 	public abstract String getRoomOccupant(int roomNumber);
 	
 	public abstract List<String> getPassengers();
+	
+	public abstract List<String> getRooms();
 
 }
